@@ -1,6 +1,6 @@
 class Sfhistory < Formula
   desc "Salesforce Time Machine — git-native rollback for AI-driven development"
-  homepage "https://github.com/takuma-ogura/sfhistory"
+  homepage "https://github.com/igness-ai/sfhistory"
   version "0.0.1"
   license :cannot_represent
 
@@ -8,7 +8,7 @@ class Sfhistory < Formula
   depends_on :macos
 
   on_macos do
-    url "https://github.com/takuma-ogura/sfhistory/releases/download/v0.0.1/sfhistory-v0.0.1-aarch64-apple-darwin.tar.gz"
+    url "https://github.com/igness-ai/sfhistory/releases/download/v0.0.1/sfhistory-v0.0.1-aarch64-apple-darwin.tar.gz"
     sha256 "d6f7c3103e97f510c9b9621064be4dc80f7d25caf1f2ac9454f29ce6fa1de57e"
   end
 
