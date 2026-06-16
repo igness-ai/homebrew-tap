@@ -1,18 +1,18 @@
 class Sfhistory < Formula
   desc "Salesforce Time Machine — git-native rollback for AI-driven development"
   homepage "https://github.com/igness-ai/sfhistory"
-  version "0.4.0"
+  version "0.4.1"
   license :cannot_represent
 
   depends_on :macos
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/igness-ai/sfhistory/releases/download/v0.4.0/sfhistory-v0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "023fad8c452c78c92392d51e8d91898597b1051acdc5c3b70540c41fc4ce98b0"
+      url "https://github.com/igness-ai/sfhistory/releases/download/v0.4.1/sfhistory-v0.4.1-aarch64-apple-darwin.tar.gz"
+      sha256 "a4fe8207fb76fc68f30dd2b2c81b0e66fe14cd67a15591412ae9cad8d7d1290e"
     else
-      url "https://github.com/igness-ai/sfhistory/releases/download/v0.4.0/sfhistory-v0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "65d44a60a1dd3369c6641d19883996b33abd31b550982945bda45b017ef18f89"
+      url "https://github.com/igness-ai/sfhistory/releases/download/v0.4.1/sfhistory-v0.4.1-x86_64-apple-darwin.tar.gz"
+      sha256 "f8fe015357180ad4f00726a9efbcce188b6a7a58716d8b5e061e6e8b35e7bef8"
     end
   end
 
